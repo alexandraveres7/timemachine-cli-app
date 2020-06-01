@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb9a6962-bdcf-4895-8862-996de7bdd3bf" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Python Unit Test" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cXKaHCcSS1YDN5hzevxrS9k4f8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alexandra\PycharmProjects\awesome-cli-app" />
+      <recent name="C:\Users\Alexandra\PycharmProjects\awesome-cli-app\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="test_cli" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="timemachine-cli-app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_cli.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test_cli" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb9a6962-bdcf-4895-8862-996de7bdd3bf" name="Default Changelist" comment="" />
+      <created>1590669559551</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590669559551</updated>
+      <workItem from="1590669569634" duration="4431000" />
+      <workItem from="1590686394772" duration="6771000" />
+      <workItem from="1590738406422" duration="2227000" />
+      <workItem from="1590742362239" duration="620000" />
+      <workItem from="1590744376787" duration="21534000" />
+      <workItem from="1590941234019" duration="25776000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="723" height="213" key="GridCell.Tab.0.bottom" timestamp="1591044664703">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="723" height="213" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591044664703" />
+    <state width="723" height="213" key="GridCell.Tab.0.center" timestamp="1591044664702">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="723" height="213" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591044664702" />
+    <state width="723" height="213" key="GridCell.Tab.0.left" timestamp="1591044664702">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="723" height="213" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591044664702" />
+    <state width="723" height="213" key="GridCell.Tab.0.right" timestamp="1591044664703">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="723" height="213" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591044664703" />
+    <state x="277" y="55" key="SettingsEditor" timestamp="1590672544700">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590672544700" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1590744522693">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1590744522693" />
+    <state x="-6" y="0" width="781" height="830" key="dock-window-1" timestamp="1591044509586">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-6" y="0" width="781" height="830" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1591044509586" />
+    <state x="9" y="367" width="1350" height="638" key="dock-window-2" timestamp="1591044059281">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="9" y="367" width="1350" height="638" key="dock-window-2/0.0.1536.824@0.0.1536.824" timestamp="1591044059281" />
+    <state x="748" y="145" key="search.everywhere.popup" timestamp="1590670215437">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="748" y="145" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1590670215437" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/timemachine_cli_app$test_cli.coverage" NAME="test_cli Coverage Results" MODIFIED="1591044395756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+  </component>
+</project>
