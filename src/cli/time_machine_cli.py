@@ -1,11 +1,11 @@
 import click
 from pprint import pprint
 
-from datasets_api import DatasetsApi
-from pools_api import PoolsApi
-from snapshots_api import SnapshotsApi
-from src.time_machine_api import TimeMachineApi
-from click_help_colors import HelpColorsGroup, HelpColorsCommand
+from api.datasets_api import DatasetsApi
+from api.pools_api import PoolsApi
+from api.snapshots_api import SnapshotsApi
+from api.time_machine_api import TimeMachineApi
+from click_help_colors import HelpColorsGroup
 
 
 @click.group(cls=HelpColorsGroup, help_headers_color='blue', help_options_color='green', help='TimeMachine Api')
@@ -62,6 +62,7 @@ def create(api, name):
 @click.pass_obj
 def rename(api, from_name, rename_to):
     api.rename_dataset(from_name, rename_to)
+    pprint(api.get_datasets())
 
 
 @datasets.command(help='Delete a dataset')
@@ -69,6 +70,7 @@ def rename(api, from_name, rename_to):
 @click.pass_obj
 def delete(api, name):
     api.delete_dataset(name)
+    pprint(api.get_datasets())
 
 
 @timemachine.group(help='Snapshots commands')
@@ -85,11 +87,11 @@ def get(api):
 
 
 @snapshots.command(help='Create a snapshot for a dataset')
-@click.option('--dataset-name', help='Name of the dataset you wish to create a snapshot of')
-@click.option('--snapshot-name', help='Name of the new snapshot')
+@click.option('--dataset', help='Name of the dataset you wish to create a snapshot of')
+@click.option('--snapshot', help='Name of the new snapshot')
 @click.pass_obj
-def create(api, dataset_name, snapshot_name):
-    api.create_snapshot(dataset_name, snapshot_name)
+def create(api, dataset, snapshot):
+    api.create_snapshot(dataset, snapshot)
     pprint(api.get_snapshots())
 
 
@@ -99,6 +101,7 @@ def create(api, dataset_name, snapshot_name):
 @click.pass_obj
 def rename(api, from_name, rename_to):
     api.rename_snapshot(from_name, rename_to)
+    pprint(api.get_snapshots())
 
 
 @snapshots.command(help='Destroy a snapshot for a dataset')
@@ -106,14 +109,16 @@ def rename(api, from_name, rename_to):
 @click.pass_obj
 def delete(api, name):
     api.delete_snapshot(name)
+    pprint(api.get_snapshots())
 
 
 @snapshots.command(help='Clone snapshot into a dataset')
-@click.option('--dataset', help='Name of the new data set where the clone will be saved')
+@click.option('--dataset', help='Name of the new dataset where the clone will be saved')
 @click.option('--snapshot', help='Name of the snapshot that will be cloned')
 @click.pass_obj
 def clone(api, dataset, snapshot):
     api.clone_snapshot(dataset, snapshot)
+    pprint(api.get_snapshots())
 
 
 @snapshots.command(help='Rollback dataset to a snapshot')
@@ -121,3 +126,4 @@ def clone(api, dataset, snapshot):
 @click.pass_obj
 def rollback(api, snapshot):
     api.rollback_snapshot(snapshot)
+    pprint(api.get_snapshots())

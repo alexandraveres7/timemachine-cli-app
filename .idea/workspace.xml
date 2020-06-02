@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb9a6962-bdcf-4895-8862-996de7bdd3bf" name="Default Changelist" comment="" />
+    <list default="true" id="eb9a6962-bdcf-4895-8862-996de7bdd3bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cli/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datasets_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/datasets_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pools_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/pools_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/setup/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/snapshots_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/snapshots_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/time_machine_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/time_machine_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/time_machine_cli.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/time_machine_cli.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/time_machine_cli.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/time_machine_cli.egg-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/time_machine_cli.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/time_machine_cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cli/time_machine_cli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_cli.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,12 +27,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cXKaHCcSS1YDN5hzevxrS9k4f8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -34,8 +55,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Alexandra\PycharmProjects\awesome-cli-app" />
       <recent name="C:\Users\Alexandra\PycharmProjects\awesome-cli-app\src" />
+      <recent name="C:\Users\Alexandra\PycharmProjects\awesome-cli-app" />
+      <recent name="C:\Users\Alexandra\PycharmProjects\awesome-cli-app\src\cli" />
+      <recent name="C:\Users\Alexandra\PycharmProjects\awesome-cli-app\src\api" />
+      <recent name="C:\Users\Alexandra\PycharmProjects\awesome-cli-app\src\setup\build" />
     </key>
   </component>
   <component name="RunManager">
@@ -82,7 +106,7 @@
       <workItem from="1590738406422" duration="2227000" />
       <workItem from="1590742362239" duration="620000" />
       <workItem from="1590744376787" duration="21534000" />
-      <workItem from="1590941234019" duration="25776000" />
+      <workItem from="1590941234019" duration="39016000" />
     </task>
     <servers />
   </component>

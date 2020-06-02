@@ -1,4 +1,4 @@
-from time_machine_api import TimeMachineApi
+from api.time_machine_api import TimeMachineApi
 
 
 class SnapshotsApi(TimeMachineApi):
